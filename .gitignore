@@ -1,0 +1,6 @@
+# OS generated
+.DS_Store
+.DS_Store?
+
+.venv
+lazy-lock.json
