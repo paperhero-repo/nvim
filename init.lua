@@ -23,6 +23,7 @@ end
 -- 플러그인 모듈
 local plugins = {
 	require("plugins.__lazy"),
+	require("plugins.__vim-commentary"),
 	require("plugins.__theme"),
 	require("plugins.__nvim-tree"),
 	require("plugins.__snipe"),
@@ -38,7 +39,6 @@ local plugins = {
 	require("plugins.__hlchunk"),
 	require("plugins.__which-key"),
 	require("plugins.__gitsigns"),
-	require("plugins.__vim-commentary"),
 	require("plugins.__find-project-root"),
 }
 

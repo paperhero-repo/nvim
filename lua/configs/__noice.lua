@@ -71,9 +71,11 @@ function M.setup()
 					size = {
 						width = "auto",
 						height = "auto",
+						min_width = 40,
+						max_width = 50,
 					},
 					border = {
-						style = "single",
+						style = "rounded",
 						text = {
 							top = " Documentation ",
 						},

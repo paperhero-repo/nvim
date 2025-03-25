@@ -58,7 +58,13 @@ function M.setup()
 				"twing",
 			},
 		},
+		languageserver = {
+			formatter = {
+				ignoreMultilineInstructions = true,
+			},
+		},
 		dockerls = {},
+		docker_compose_language_service = {},
 		sqlls = {},
 		jsonls = {},
 		yamlls = {},
@@ -91,6 +97,8 @@ function M.setup()
 			"html-lsp",
 			"tailwindcss-language-server",
 			"lua-language-server",
+			"dockerls",
+			"docker-compose-language-service",
 		},
 		auto_update = true,
 		run_on_start = true,
